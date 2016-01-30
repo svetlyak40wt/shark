@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo docker run --name yatank -ti --rm -v `pwd`:/yandex-tank-configs direvius/docker-yatank -c /yandex-tank-configs/load.ini
